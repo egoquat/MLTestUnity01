@@ -19,7 +19,7 @@ public class PenguinArea : Area
     [HideInInspector]
     public float radiusFeed = 0.0f;
 
-    private List<GameObject> listFish;
+    private List<GameObject> listFish = new List<GameObject>();
 
     public override void ResetArea()
     {

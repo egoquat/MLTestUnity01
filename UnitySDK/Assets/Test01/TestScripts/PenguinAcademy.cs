@@ -18,7 +18,7 @@ public class PenguinAcademy : Academy
         {
             PenguinArea area = penguinAreas[i];
             area.speedFish = resetParameters["speed_fish"];
-            area.radiusFeed = resetParameters["radius_fish"];
+            area.radiusFeed = resetParameters["radius_feed"];
             area.ResetArea();
         }
     }

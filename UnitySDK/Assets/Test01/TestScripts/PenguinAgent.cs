@@ -67,7 +67,7 @@ public class PenguinAgent : Agent
         // endOffset : Ending height offset of ray from center of agent.
         float rayDistance = 20.0f;
         float[] rayAngles = { 30.0f, 60.0f, 90.0f, 120.0f, 150.0f };
-        string[] detectableObjects = { "baby", "fish", "wall" };
+        string[] detectableObjects = { "PenguinBaby", "PenguinFish", "PenguinWall" };
         AddVectorObs(rayPerception.Perceive(rayDistance, rayAngles, detectableObjects, 0.0f, 0.0f));
     }
 
@@ -90,11 +90,11 @@ public class PenguinAgent : Agent
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.CompareTag("fish"))
+        if (collision.transform.CompareTag("PenguinFish"))
         {
             EatFish(collision.gameObject);
         }
-        else if (collision.transform.CompareTag("baby"))
+        else if (collision.transform.CompareTag("PenguinBaby"))
         {
             // Try to feed the baby.
             RegurgitateFish();

@@ -26,6 +26,9 @@ TagManager:
   - pyramid
   - switchOn
   - stone
+  - PenguinBaby
+  - PenguinFish
+  - PenguinWall
   layers:
   - Default
   - TransparentFX
