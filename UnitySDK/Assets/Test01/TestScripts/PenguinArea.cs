@@ -90,6 +90,6 @@ public class PenguinArea : Area
 
     private void Update()
     {
-        cumulativeRewardText.text = penguinAgent.GetCumulativeReward().ToString();
+        cumulativeRewardText.text = penguinAgent.GetCumulativeReward().ToString("0.00");
     }
 }
