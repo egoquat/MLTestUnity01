@@ -366,7 +366,7 @@ PrefabInstance:
     - target: {fileID: 735279031352501298, guid: 6c56d062fbc0ca54784f3091d58c3552,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 820306576699641966, guid: 6c56d062fbc0ca54784f3091d58c3552,
         type: 3}
@@ -391,6 +391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LearningAcademy
+      objectReference: {fileID: 0}
+    - target: {fileID: 979603783299882069, guid: 7cea6a3e17dd7a94ea941dbe5153c5d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6694852893117054568, guid: 7cea6a3e17dd7a94ea941dbe5153c5d3,
         type: 3}
@@ -519,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 8896590987559445976, guid: f372709b756407a419b3455ed6afec6d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f372709b756407a419b3455ed6afec6d, type: 3}
@@ -594,6 +599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PenguinLearningArea
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270996697861899382, guid: 697e86c0fd23f4c479e283ae61165cc3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 697e86c0fd23f4c479e283ae61165cc3, type: 3}
